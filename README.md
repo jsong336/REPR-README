@@ -1,4 +1,6 @@
-<img src="misc/REPR.svg" alt="REPR-logo" />
+<p align="center">
+  <img src="misc/REPR.svg" alt="REPR-logo" width="300px"/>
+</p>
 
 # Residential Energy Performance Rating (REPR)
 ## Residential Energy Performance Scoring
