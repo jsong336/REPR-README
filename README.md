@@ -1,3 +1,4 @@
+<img src="misc/REPR.svg" alt="REPR-logo">
 # Residential Energy Performance Rating (REPR)
 ## Residential Energy Performance Scoring
 ### :question: What is Residential Energy Performance Score
@@ -28,5 +29,5 @@ The REPR is an web application developed to demonstrate different a usecase of t
 * Home owners to evaluates their home in terms of the energy efficiency and recommendations to improve the energy efficiency.
 * Analyst who want to gain further insights on the driving factors of residential energy efficiency. 
 
-<img src="png/dashboard" alt="user dashboard"/>
+<img src="misc/user-dashboard.png" alt="user-dashboard"/>
 
