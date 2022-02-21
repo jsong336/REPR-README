@@ -3,6 +3,8 @@
 </p>
 
 # Residential Energy Performance Rating (REPR)
+This is a public repository for our final year capstone project. The codebase and detailed analysis are in private repository. To contact, please reach out to one of our [memebers](misc/contact.txt). 
+
 ## Residential Energy Performance Scoring
 ### :question: What is Residential Energy Performance Score
 Inspired by Energy Star's [Energy Performance Score](https://portfoliomanager.energystar.gov/pdf/reference/ENERGY%20STAR%20Score.pdf) for public and commercial buildings, our team developed the Residence Energy Performance Scoring, a 1-100 score providing a quantitative comparison between the energy efficiencies of residential homes.
