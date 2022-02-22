@@ -31,7 +31,11 @@ The estimated energy usages are used to calculate the __energy efficiency ratio_
 ```
 This ratio represents the relative measure of how energy-efficient the home is by comparing the actual energy usage to expected energy usage given different building or geographical factors discussed above(type 1). When the ratio is high, the residence building is less energy efficient, and vice versa. 
 
-The energy efficiency ratio is compared with multiple peers with similar home attributes by fitting a probability distribution. The peers are found using statistical clustering analysis with the type 1 variables. To view detail example of how to calculate the score, please see the [IPython notebook]().
+The energy efficiency ratio is compared with multiple peers with similar home attributes by fitting a probability distribution. Scaling the cumulative probability from the fitted distribution provides a score between 1-100, where 100 represents the home is the most energy-efficient among its peers. The peers are found using statistical clustering analysis with the type 1 variables. To view detail example of how to calculate the score, please see the [IPython notebook]().
+
+```
+    Score = (1 - CDF(Energy Efficiency Ratio)) x 100 
+```
 
 ### :open_file_folder: Data
 To build tranditional 1-100 ENERGY STAR rating, [CBECS(US)](https://www.eia.gov/consumption/commercial/) and [SCIEU(Canada)](https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/menus/scieu/2014/tables.cfm) datasets were used. These data are from government surveys to understand energy usage in commercial and institutional buildings. Similarly, the government also did [RECS(US)](https://www.eia.gov/consumption/residential/) and [SECMURB(Canada)](https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/menus/murb/2018/tables.cfm) to sample energy usage in residential buildings. We performed analysis on RECS to build our score system
@@ -41,6 +45,24 @@ The REPR is a web application developed to demonstrate different use-cases of th
 * __Homeowners__ who want to evaluate the energy efficiency of their home and receive general recommendations to improve the score. 
 * __Analysts__ want to gain further insights into the driving factors of residential energy efficiency. 
 
-
+### Homeowner User Dashboard
+The features for typical homeowners who want to know their home's energy efficiency could use the REPR user dashboard to create __Residence Portfolio__ to view annual energy efficiency scores and monthly projected scores. 
 <img src="misc/user-dashboard.png" alt="user-dashboard"/>
 
+Furthermore, the user could fill out a quick survey to receive simple recommendations which might help the user improve the energy efficiency of the user's home, which analysts could generate based on the score.
+<img src="misc/simple-recommendation.png" alt="simple-recommendation">
+
+### Analytic Dashboard 
+If advanced users want to see more detail analytics based on the score, the REPR analytic dashboard demonstrate use case of the score system to analyzes data and different factors (type 2). 
+
+#### Average Score Based On Different Variables
+<img src="misc/demo-barchart.png" alt="demo-barchart">
+
+#### Regional Score Heatmap 
+<img src="misc/demo-heatmap.png" alt="demo-barchart">
+
+#### Pie Chart for Energy Efficient Residences
+<img src="misc/demo-heatmap.png" alt="demo-barchart">
+
+#### Sample Scatter Plot On Score
+<img src="misc/demo-scatter.png" alt="demo-barchart">
