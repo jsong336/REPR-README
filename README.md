@@ -47,22 +47,40 @@ The REPR is a web application developed to demonstrate different use-cases of th
 
 ### Homeowner User Dashboard
 The features for typical homeowners who want to know their home's energy efficiency could use the REPR user dashboard to create __Residence Portfolio__ to view annual energy efficiency scores and monthly projected scores. 
-<img src="misc/user-dashboard.png" alt="user-dashboard"/>
+
+<p align="center">
+  <img src="misc/user-dashboard.png" alt="user-dashboard"/>
+</p
 
 Furthermore, the user could fill out a quick survey to receive simple recommendations which might help the user improve the energy efficiency of the user's home, which analysts could generate based on the score.
-<img src="misc/simple-recommendation.png" alt="simple-recommendation">
+
+<p align="center">
+  <img src="misc/simple-recommendation.png" alt="simple-recommendation" width=700>
+</p>
 
 ### Analytic Dashboard 
-If advanced users want to see more detail analytics based on the score, the REPR analytic dashboard demonstrate use case of the score system to analyzes data and different factors (type 2). 
-
-#### Average Score Based On Different Variables
-<img src="misc/demo-barchart.png" alt="demo-barchart">
+If advanced users want to see more detail analytics based on the score, the REPR analytic dashboard demonstrate use case of the score system to analyzes data and different factors (type 2). The analytic dashboard provides following visualizations.  
+  
+#### Average Score By House Attribute
+To understand average score over a house attribute, the advanced user could look at the bar chart which group the score average by different home attribute values.
+<p align="center">
+  <img src="misc/demo-barchart.png" alt="demo-barchart" width=700 />
+</p>
 
 #### Regional Score Heatmap 
-<img src="misc/demo-heatmap.png" alt="demo-barchart">
+To understand the average score across the geographical region, the advanced user could look at the heatmap which shows average score over different section in a city. 
+<p align="center">
+  <img src="misc/demo-heatmap.png" alt="demo-heatmap" width=300 />
+</p>
 
 #### Pie Chart for Energy Efficient Residences
-<img src="misc/demo-heatmap.png" alt="demo-barchart">
+To understand what attributes contributes to energy efficiency, the advanced user could view the piechart which shows percentage different values for homes with score >=75 which are considered energy efficient homes. 
+<p align="center">
+  <img src="misc/demo-piechart.png" alt="demo-piechart" width=700 />
+</p>
 
 #### Sample Scatter Plot On Score
-<img src="misc/demo-scatter.png" alt="demo-barchart">
+To view correlation between a continous variables and the score, the advanced user could look at the sample scatter plot along with the correlation between home attributes and the score. 
+<p align='center'>
+  <img src="misc/demo-scatter.png" alt="demo-scatter" width=700 />
+</p>
