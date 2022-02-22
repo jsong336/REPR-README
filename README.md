@@ -1,6 +1,10 @@
-<img src="misc/REPR.svg" alt="REPR-logo">
+<p align="center">
+  <img src="misc/REPR.svg" alt="REPR-logo" width="300px"/>
+</p>
 
 # Residential Energy Performance Rating (REPR)
+This is a public repository for our final year capstone project. The codebase and detailed analysis are in private repository. To contact, please reach out to one of our [members](misc/contact.txt). 
+
 ## Residential Energy Performance Scoring
 ### :question: What is Residential Energy Performance Score
 Inspired by Energy Star's [Energy Performance Score](https://portfoliomanager.energystar.gov/pdf/reference/ENERGY%20STAR%20Score.pdf) for public and commercial buildings, our team developed the Residence Energy Performance Scoring, a 1-100 score providing a quantitative comparison between the energy efficiencies of residential homes.
@@ -10,7 +14,18 @@ The score aims to provide a benchmark based on similar house attributes and ener
 To present use cases of the scoring system, our team developed Residential Energy Performance Rating System (REPR), a software application providing various features based on the scoring system.
 
 ### :heavy_plus_sign: How the 1-100 Score is calculated?
-For convenience, we refer to these factors as type 1 variables and any other factors that influence the energy efficiency as type 2 variables. 
+To calculate the 1-100 Energy Efficiency Score, we first compute energy usage intensity(EUI). EUI is calculated by dividing the annual energy usage by the total area of the building. 
+
+Then, the scoring system estimates the yearly energy usage based on different home factors, regional weather conditions, and metropolis information. These factors influence the energy usage of individual homes but should not reflect on the "energy efficiency".  
+
+For convenience, we refer to these factors as type 1 variables and any other factors that influence the energy efficiency as type 2 variables. Examples of type 1 variables include,
+* The population/types of the city
+* Types of home
+* Square footage and number of rooms
+* Years when built
+* Weather conditions
+
+The scoring system also uses the type 1 variables to select peers comparison to provide a fair score regardless of home types or geographical location.
 
 The estimated energy usages are used to calculate the energy efficiency ratio with the actual energy usage. 
 ```
@@ -28,6 +43,6 @@ The REPR is a web application developed to demonstrate different use-cases of th
 * Homeowners who want to evaluate the energy efficiency of their home and receive general recommendations to improve the score. 
 * Analysts want to gain further insights into the driving factors of residential energy efficiency. 
 
-##
+
 <img src="misc/user-dashboard.png" alt="user-dashboard"/>
 
