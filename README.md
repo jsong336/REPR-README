@@ -37,6 +37,11 @@ The energy efficiency ratio is compared with multiple peers with similar home at
     Score = (1 - CDF(Energy Efficiency Ratio)) x 100 
 ```
 
+__Overview of Scoring System__
+<p align='center'>
+  <img src="misc/flowchart.jpg" width=400 alt='flowchart'/>
+</p>
+
 ### :open_file_folder: Data
 To build tranditional 1-100 ENERGY STAR rating, [CBECS(US)](https://www.eia.gov/consumption/commercial/) and [SCIEU(Canada)](https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/menus/scieu/2014/tables.cfm) datasets were used. These data are from government surveys to understand energy usage in commercial and institutional buildings. Similarly, the government also did [RECS(US)](https://www.eia.gov/consumption/residential/) and [SECMURB(Canada)](https://oee.nrcan.gc.ca/corporate/statistics/neud/dpa/menus/murb/2018/tables.cfm) to sample energy usage in residential buildings. We performed analysis on RECS to build our score system
 
