@@ -3,7 +3,7 @@
 </p>
 
 # Residential Energy Performance Rating (REPR)
-This is a public repository for our final year capstone project. The codebase and detailed analysis are in private repository. To contact, please reach out to one of our [members](misc/contact.txt). 
+This is a public repository for our final year capstone project for SE4450 at Western University. The code and more analysis are in private repository. To contact, please reach out to one of our [members](misc/contact.txt). 
 
 ## Residential Energy Performance Scoring
 ### :question: What is Residential Energy Performance Score
