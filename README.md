@@ -31,7 +31,7 @@ The estimated energy usages are used to calculate the __energy efficiency ratio_
 ```
 This ratio represents the relative measure of how energy-efficient the home is by comparing the actual energy usage to expected energy usage given different building or geographical factors discussed above(type 1). When the ratio is high, the residence building is less energy efficient, and vice versa. 
 
-The energy efficiency ratio is compared with multiple peers with similar home attributes by fitting a probability distribution. Scaling the cumulative probability from the fitted distribution provides a score between 1-100, where 100 represents the home is the most energy-efficient among its peers. The peers are found using statistical clustering analysis with the type 1 variables. To view detail example of how to calculate the score, please see the [IPython notebook]().
+The energy efficiency ratio is compared with multiple peers with similar home attributes by fitting a probability distribution. Scaling the cumulative probability from the fitted distribution provides a score between 1-100, where 100 represents the home is the most energy-efficient among its peers. The peers are found using statistical clustering analysis with the type 1 variables. To view detail example of how to calculate the score, please see the [IPython notebook](https://github.com/jsong336/REPR-README/blob/first-write-up/Residential_Energy_Performance_Scoring.ipynb).
 
 ```
     Score = (1 - CDF(Energy Efficiency Ratio)) x 100 
