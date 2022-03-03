@@ -6,6 +6,13 @@
 This is a public repository for our final year capstone project for SE4450 at Western University. The code and more analysis are in private repository. To contact, please reach out to one of our [members](misc/contact.txt). 
 
 ## Residential Energy Performance Scoring
+### :notebook_with_decorative_cover: Abstract
+Inspired by the 1 - 100 ENERGY STAR® Score for public and commercial buildings, Residential Energy Performance Rating System (REPR) provides an intuitive and quantitative metric to evaluate the energy efficiency of residential homes. 
+
+REPR compares the energy efficiency of the residences and then provides a score between 1 - 100. The higher the score, the home is more energy efficient. Achieving a score of 100 means it is on top of energy efficiency compared to similar homes, and conventionally 75 represents an energy-efficient home. REPR uses multiple statistical methods, comparing energy usages of homes with similar household and geographical characteristics to create a fair score. Thus, the energy efficiency scoring system distinguishes energy-efficient homes normalizing for home-specific characteristics, such as square footage, number of household members, property types, etc. 
+
+REPR is accessible through an interactive dashboard and offers distinct features for homeowners and business/energy analysts, all through a secure web application. Once a home is benchmarked, homeowners will have the information to: identify the home’s energy efficiency, improve the home’s energy efficiency, share and report the home’s energy performance. Similarly, the system provides interactive data visualizations to identify patterns and factors for energy efficiency scores for the analysts.
+
 ### :question: What is Residential Energy Performance Score
 Inspired by Energy Star's [Energy Performance Score](https://portfoliomanager.energystar.gov/pdf/reference/ENERGY%20STAR%20Score.pdf) for public and commercial buildings, our team developed the Residence Energy Performance Scoring, a 1-100 score providing a quantitative comparison between the energy efficiencies of residential homes.
 
