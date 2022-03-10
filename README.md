@@ -5,6 +5,8 @@
 # Residential Energy Performance Rating (REPR)
 This is a public repository for our final year capstone project for SE4450 at Western University. The code and more analysis are in private repository. To contact, please reach out to one of our [members](misc/contact.txt). 
 
+[Link to video presentation](https://youtu.be/kqOUWsxcJUs)
+
 ## Residential Energy Performance Scoring
 ### :notebook_with_decorative_cover: Abstract
 Inspired by the 1 - 100 ENERGY STAR® Score for public and commercial buildings, Residential Energy Performance Rating System (REPR) provides an intuitive and quantitative metric to evaluate the energy efficiency of residential homes. 
